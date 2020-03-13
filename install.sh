@@ -33,4 +33,6 @@ systemctl unmask grafana-server.service
 systemctl start grafana-server
 systemctl enable grafana-server.service
 
-echo "DONE! Thanks for using the SIYTEK.COM Grafana & InfluxDB easier installation script! Come visit me @ https://www.siytek.com"
+echo "...DONE!"
+echo "Thanks for using the SIYTEK.COM Grafana & InfluxDB easier installation script!"
+echo "Come visit me @ https://www.siytek.com"
