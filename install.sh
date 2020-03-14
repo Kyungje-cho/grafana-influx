@@ -33,7 +33,7 @@ echo "deb https://repos.influxdata.com/debian $(lsb_release -cs) stable" | sudo 
 apt-get update && apt-get install influxdb
 
 sudo systemctl unmask influxdb.service
-sudo system start influxdb
+sudo systemctl start influxdb
 sudo systemctl enable influxdb.service
 
 echo " "
