@@ -7,6 +7,6 @@ Easier installation of Grafana and InfluxDB on Raspberry Pi. An installation scr
 
 # Installation
 
-From the terminal, run the command `sudo wget -O - https://raw.githubusercontent.com/Siytek/grafana-influx/master/install.sh | sudo bash` to run the installation script.
+From the terminal, run the command `sudo su -c "bash <(wget -qO- https://raw.githubusercontent.com/Siytek/grafana-influx/master/install.sh)" root` to run the installation script.
 
 Wait for the packages to download and install, then following the prompts. Enjoy!
