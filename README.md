@@ -9,4 +9,4 @@ An installation script to make the process of installing Grafana and InfluxDB ea
 
 # Installation
 
-From the terminal, run the command `sudo wget -O - https://raw.githubusercontent.com/Siytek/grafana-influx/master/install.sh | bash` to run the installation script.
+From the terminal, run the command `sudo wget -O - https://raw.githubusercontent.com/Siytek/grafana-influx/master/install.sh | sudo bash` to run the installation script.
