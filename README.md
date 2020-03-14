@@ -3,7 +3,7 @@ Grafana and InfluxDB Installation Script
 
 # What is it?
 
-Easier installation of Grafana and InfluxDB on Raspberry Pi. An installation script to make the process of installing Grafana and InfluxDB easier.
+An installation script to make the process of installing Grafana and InfluxDB easier. It will also set up your database and create a new user. All you need to do upon completion of the script is nagivate to the Granfana GUI and enter your details.
 
 # Installation
 
