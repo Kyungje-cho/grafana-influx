@@ -32,14 +32,12 @@ echo "deb https://repos.influxdata.com/debian $(lsb_release -cs) stable" | sudo 
 
 apt-get update && apt-get install influxdb
 
-systemctl unmask influxdb.service
-system start influxdb
-systemctl enable influxdb.service
+sudo systemctl unmask influxdb.service
+sudo system start influxdb
+sudo systemctl enable influxdb.service
 
 echo " "
 read -p "Installation complete, press ENTER to continue with setup..." null
-
-clear
 
 echo "========================="
 echo "= Set up a new database ="
